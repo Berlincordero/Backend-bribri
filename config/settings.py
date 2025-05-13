@@ -26,7 +26,11 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
     "corsheaders",
     "users",
+    "finca",
 ]
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
